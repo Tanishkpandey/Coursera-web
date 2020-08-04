@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=devive-width, initial-scale=1">
+	<title> Natural products </title>
+	<!-- links --> 
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+
+	<style type="text/css">
+
+		*{
+			padding: 0;
+			margin: 0;
+			/*border: 1px solid black;*/
+			box-sizing: border-box;
+		}
+
+	body{
+			background-color: black;
+			color: white;
+		}
+		
+
+
+
+		header::before{
+			content: "";
+			background: url("http://cdn30.us1.fansshare.com/image/desktopwallpaperpinterest/desktop-greenchevron-dlf-desktop-wallpaper-pinterest-465633740.jpg");
+			position: absolute;
+			width: 100%;
+			height: 656px;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			opacity: 0.7;
+		}
+		li
+		{
+			list-style: none;
+		}
+		.navigation{
+			display: flex;
+			justify-content: flex-end;
+			
+		}
+		.nav{
+			padding: 10px;
+			font-size: 13px;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		.logo{
+			width: 20%;
+			float: left;
+			font-size: 30px;
+    		margin: 1px auto;
+			text-align: center;
+			font-family: 'Ubuntu', sans-serif;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		section{
+			padding: 1rem;
+			text-align: center;
+			justify-content:center;
+			height: 558px;
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+		}
+		section h1{
+			font-size: 70px;
+			font-family: 'Ubuntu', sans-serif;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		section p{
+			font-size: 20px;
+			font-family: 'Ubuntu Mono', monospace;
+			text-shadow: 2px 2px 4px #000000;
+
+		}
+		a:link{
+				text-decoration: none;
+				color: white;
+				font-size: 22px;
+				font-family: 'Ubuntu Mono', monospace;
+
+
+		}
+		a:visited{
+			color: #f3f4a4
+		}
+
+
+
+
+
+		.cont1
+		{
+			background-color: white;
+			color: #1c6424db;
+			padding: 5rem;
+			font-size: 30px;
+			word-spacing: 7px;
+			line-height: 45px;
+			font-family: 'Ubuntu', sans-serif;
+			text-align: center;
+
+		}
+		.items{
+			width: 100%;
+			height: 100%;
+			padding: 2rem;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			background-color: #daf4dd;
+
+		}
+		.Item
+		{
+			width: 190px;
+			height: 263px;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+			background-color: white;
+			color: black;
+			border-radius: 1rem;
+			text-align: center;
+			font-family: 'Ubuntu Mono', monospace;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   			margin: 31px;
+   			overflow: hidden;
+		}
+		div.Item p{
+			margin: 1px;
+		}
+		div.items img{
+			width: 70%;
+			height: 52%;
+			overflow: hidden;
+			margin:auto;
+		}
+		button{
+			padding: 6px;
+    		border-radius: 1rem;
+   			width: 34%;
+   			margin: 5px auto;
+   			border-style: none;
+   			background-color: #05ff2169;
+		}
+		button:hover{
+			background-color: #05ff21bf;
+		}
+		h2{
+			margin: 1px;
+		}
+		.cont3
+		{
+			background-color: white;
+			color: black;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			padding: 35px;
+		}
+
+		div.co img
+		{
+			width: 100%;
+    		height: 100%;
+		}
+		div.co p{
+    			width: 102%;
+   			 	font-size: xxx-large;
+    			justify-content: center;
+    			font-family: 'Ubuntu Mono', monospace;
+    			line-height: 63px;
+    			color: #226016;
+
+		}
+		footer{
+			padding: 1rem;
+			font-size: 20px;
+			text-align: center;
+			font-family: 'Ubuntu Mono', monospace;
+			color: #226016;;
+    		background-color: #daf4dd;
+		}
+		.feed{
+			background-color: white;
+			width: 100%;
+			height: 90%;
+			margin: auto;
+		}
+		iframe{
+			width: 100%;
+			height: 770px;
+			margin: auto;
+		}
+
+
+		/*The responsive devic*/
+		@media (max-width: 767px)
+		{
+			*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			border: 1px solid #00000000;
+			}
+				body{
+			background-color: black;
+			color: white;
+			}
+		
+
+
+
+		header::before{
+			content: "";
+			background: url("http://cdn30.us1.fansshare.com/image/desktopwallpaperpinterest/desktop-greenchevron-dlf-desktop-wallpaper-pinterest-465633740.jpg");
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			opacity: 0.7;
+		}
+		li
+		{
+			list-style: none;
+			width: 98%;
+		}
+		.navigation{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			
+		}
+		.nav{
+			padding: 10px;
+			font-size: 13px;
+			text-shadow: 2px 2px 4px #000000;
+			display: flex;
+			justify-content: center;
+		}
+		.logo{
+			width: 100%;
+			font-size: 30px;
+    		margin: 1px auto;
+			text-align: center;
+			font-family: 'Ubuntu', sans-serif;
+			text-shadow: 2px 2px 4px #000000;
+			display: block;
+		}
+		section{
+			padding: 1rem;
+			text-align: center;
+			justify-content:center;
+			height: 292px;
+			display: block;
+			margin: auto;
+		}
+		section h1{
+			font-size: 54px;
+			font-family: 'Ubuntu', sans-serif;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		section p{
+			font-size: 20px;
+			font-family: 'Ubuntu Mono', monospace;
+			text-shadow: 2px 2px 4px #000000;
+
+		}
+		a:link{
+				text-decoration: none;
+				color: white;
+				font-size: 22px;
+				font-family: 'Ubuntu Mono', monospace;
+
+
+		}
+		a:visited{
+			color: #f3f4a4
+		}
+
+
+
+
+
+		.cont1
+		{
+			background-color: white;
+			color: #1c6424db;
+			padding: 2rem;
+    		font-size: 23px;
+			word-spacing: 7px;
+			line-height: 45px;
+			font-family: 'Ubuntu', sans-serif;
+			text-align: center;
+
+		}
+		.items{
+			width: 100%;
+			height: 100%;
+			padding: 2rem;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			background-color: #daf4dd;
+
+		}
+		.Item
+		{
+			width: 190px;
+			height: 263px;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+			background-color: white;
+			color: black;
+			border-radius: 8px;
+			text-align: center;
+			font-family: 'Ubuntu Mono', monospace;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   			margin: 31px;
+   			overflow: hidden;
+		}
+		div.Item p{
+			margin: 11px;
+		}
+		div.items img{
+			width: 70%;
+			height: 52%;
+			overflow: hidden;
+			margin:auto;
+		}
+		button{
+			padding: 6px;
+    		border-radius: 1rem;
+   			width: 34%;
+   			margin: 5px auto;
+   			border-style: none;
+   			background-color: #05ff2169;
+		}
+		button:hover{
+			background-color: #05ff21bf;
+		}
+		h2{
+			margin: 1px;
+		}
+		.cont3
+		{
+			background-color: white;
+			color: black;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			padding: 8px;
+		}
+
+		div.co img
+		{
+			width: 100%;
+    		height: 100%;
+		}
+		div.co p{
+    			width: 100%;
+    			font-size: 34px;
+    			justify-content: center;
+    			font-family: 'Ubuntu Mono', monospace;
+    			line-height: 63px;
+    			color: #226016;
+    			text-align: center;
+    			margin: 0px
+		}
+		footer{
+			padding: 1rem;
+			font-size: 20px;
+			text-align: center;
+			font-family: 'Ubuntu Mono', monospace;
+			color: #226016;;
+    		background-color: #daf4dd;
+		}
+
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		
+		<nav>
+			<div class="logo">Nature's</div>
+			<ul class="navigation">
+				<li class="nav"><a href="#">Home</a></li>
+				<li class="nav"><a href="#about">About us</a></li>
+				<li class="nav"><a href="#Prod">Product</a></li>
+				<li class="nav"><a href="#mo">Contact us</a></li>
+				<li class="nav"><a href="#4">Support us</a></li>
+			</ul>
+		</nav>
+		<section>
+			<h1>Welcome to Nature's</h1>
+			<p>A place with natural elements on sale</p>
+		</section>
+	</header>
+	<div class="cont1">
+		<p id="about">
+		  	Today when the climate is all messed up we are here to meet the needs. Our products include sunlight, rainfall, rainbow, snowfall, fog, moisture and many more. <br>These are complete pollutant free!!!
+		</p>
+	</div>
+	<div class="cont2" id="Prod">
+		<div class="items">
+			<div class="Item"> 
+
+				<img src="https://previews.123rf.com/images/raulalmu/raulalmu1710/raulalmu1710000	19/87226529-sun-flat-icon-single-high-quality-outline-symbol-of-summer-for-web-de	sign-or-mobile-app-thin-line-si.jpg">
+
+				<h2>Sunlight</h2> 
+				<p>Get a lot of vitamin D  with sunlight </p>
+				<br>
+				<button> Buy now</button>
+			</div>
+			<div class="Item"> 
+
+				<img src="https://www.colourbox.com/preview/28730307-heavy-rain-line-icon.jpg">
+
+				<h2>Rainfall</h2>
+				<p>Enjoy rain with your loved one</p>
+				<br>
+				<button> Buy now</button>
+			 </div>
+			<div class="Item"> 
+				<img src="https://cdn4.iconfinder.com/data/icons/weather-forecast-outline-2/64/rainbow_weather_weather_forecast-512.png">
+
+				<h2>Rainbow</h2>
+				<p>Add colors to your life with rainbow</p>
+				<br>
+				<button> Buy now</button>
+			 </div>
+			<div class="Item"> 
+				<img src="https://www.pinclipart.com/picdir/big/533-5339362_sleet-snow-rain-cloud-snowfall-weather-sleet-icon.png">
+
+				<h2>Snowfall</h2>
+				<p>Experience how dose it feels to make a snow angle</p>
+				<br>
+				<button> Buy now</button>
+			 </div>
+			<div class="Item"> 
+				<img src="https://image.flaticon.com/icons/svg/286/286588.svg">
+
+				<h2>Fog</h2>
+				<p>This is going to be best option if you want to bunk school/college</p>
+				<br>
+				<button> Buy now</button>
+			 </div>
+			<div class="Item"> 
+				<img src="https://icon-library.net/images/others-icon/others-icon-16.jpg">
+
+				<h2>Others</h2>
+				<p>More natural elements to buy</p>
+				<br>
+				<button> Buy now</button>
+			 </div>
+			
+		</div>
+		
+	</div> 
+	
+	<div class="cont3" id="mo">
+		<div class="co">
+			<img src="https://www.cdslindia.com/Includes/images/ContactUs/contactus-icon.png">
+		</div>
+		<div class="co">
+		<p>Contact us
+			<br>
+			+91 9876543210
+		</p>
+		</div>
+	</div>
+	<footer>
+		<p> A Bizarre Website By T</p>
+	</footer>
+	<div class="feed">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe57e2jFIQIxYQKnQOPqb6DeGCZHN8m9LOC1v-ZZUnGBigidg/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>
+	
+</body>
+</html>
