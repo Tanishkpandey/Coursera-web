@@ -1,0 +1,124 @@
+*{
+			margin:0px;
+			padding: 0px;
+			/*border: .5px solid white;*/
+
+		}
+		body
+		{
+			font-size: 16px;
+			color: #fff;
+			background-color: #210124;
+			font-family: 'Oxygen', sans-serif;
+		}
+		header
+		{
+			display: flex;
+			justify-content: space-between;
+			background-color: #750D37;
+			padding: 10px;
+		}
+		div.logo img
+		{
+			width: 80px;
+			height: 80px;
+			margin: 4px 11px;
+		}
+		div.logo h1
+		{
+			font-size: 40px;
+		}
+		.logo
+		{
+			display: flex;
+
+		}
+		.logoh
+		{
+			display: flex;
+			flex-direction: column;
+		}
+		h1 a
+		{
+			font-size: 20px;
+			text-decoration:none;
+			color: white;
+			}
+		div.logo p
+		{
+			font-size: 13px;
+			text-align: center;
+		}
+		li{
+			list-style: none;
+			display: inline;
+			width: 40%;
+			padding:0px 23px
+		}
+		.navi
+		{
+			display: flex;
+			align-self: center;
+		}
+		.fas
+		{
+			margin:8px;
+		}
+		li a{
+			text-decoration:none;
+			color: white;
+		}
+		li a:hover
+		{
+			font-weight: bold;
+		}
+		footer
+		{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			font-size: 16px;
+    		padding: 54px;
+    		background-color: #00000096;
+    		font-weight: bold;
+    		flex-wrap: wrap;
+    		text-align: center;
+    		align-items: center;
+		}
+		.addr, .shop , .plio
+		{
+			width: 300px;
+			margin: 20px 0px;
+
+		}
+		@media (max-width: 620px)
+		{
+			header
+		{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #750D37;
+			padding: 10px;
+		}
+
+		li{
+			list-style: none;
+			display: block;
+			width: 102%;
+			padding:0px 23px;
+			margin: 35px 0px;
+			font-size: 22px;
+		}
+		.navi
+		{
+			margin: 13px 0px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+		}
+
+
+		

@@ -1,0 +1,182 @@
+*{
+			margin:0px;
+			padding: 0px;
+			/*border: .5px solid white;*/
+
+		}
+		body
+		{
+			font-size: 16px;
+			color: #fff;
+			background-color: #210124;
+			font-family: 'Oxygen', sans-serif;
+		}
+		header
+		{
+			display: flex;
+			justify-content: space-between;
+			background-color: #750D37;
+			padding: 10px;
+		}
+		div.logo img
+		{
+			width: 80px;
+			height: 80px;
+			margin: 4px 11px;
+		}
+		div.logo h1
+		{
+			font-size: 40px;
+		}
+		.logo
+		{
+			display: flex;
+
+		}
+		.logoh
+		{
+			display: flex;
+			flex-direction: column;
+		}
+		h1 a
+		{
+			font-size: 20px;
+			text-decoration:none;
+			color: white;
+			}
+		div.logo p
+		{
+			font-size: 13px;
+			text-align: center;
+		}
+		li{
+			list-style: none;
+			display: inline;
+			width: 40%;
+			padding:0px 23px
+		}
+		.navi
+		{
+			display: flex;
+			align-self: center;
+		}
+		.fas
+		{
+			margin:8px;
+		}
+		li a{
+			text-decoration:none;
+			color: white;
+		}
+		li a:hover
+		{
+			font-weight: bold;
+		}
+		.imgb
+		{
+			width: 95%;
+			margin: auto;
+		}
+		section.imgb img
+		{
+			width: 100%;
+			margin: 30px 0px;
+			border-radius: 10px;
+		}
+		.cards
+		{
+			width: 95%;
+			margin: 40px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+		div.item img
+		{
+			    width: 325px;
+    			height: 260px;
+		}
+		.item
+		{
+			margin:30px;
+		}
+		.text
+		{
+			    
+			    background-color: black;
+			    font-size: 22px;
+			    text-align: center;
+		}
+		.call
+		{
+			text-align: center;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			align-items: center;
+			background-color: #750D37;
+			flex-wrap: wrap;
+		}
+		section.call h2
+		{
+			font-size: 50px;
+			margin: 37px 0px;
+		}
+		section.call h1
+		{
+
+			font-size: 30px;
+		}
+		section.call img
+		{
+			width: 300px;
+		}
+		footer
+		{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			font-size: 16px;
+    		padding: 54px;
+    		background-color: #00000096;
+    		font-weight: bold;
+    		flex-wrap: wrap;
+    		text-align: center;
+    		align-items: center;
+		}
+		.addr, .shop , .plio
+		{
+			width: 300px;
+			margin: 20px 0px;
+
+		}
+		@media (max-width: 620px)
+		{
+			header
+		{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #750D37;
+			padding: 10px;
+		}
+
+		li{
+			list-style: none;
+			display: block;
+			width: 72%;
+			padding:0px 23px;
+			margin: 35px 0px;
+			font-size: 22px;
+		}
+		.navi
+		{
+			margin: 13px 0px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+		
+		}
